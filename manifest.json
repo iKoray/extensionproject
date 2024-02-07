@@ -5,7 +5,7 @@
   "version": "1.0",
   "action": {
     "default_popup": "index.html",
-    "default_icon": "scanV.png"
+    "default_icon": "scanV_extension.png"
   },
   "permissions": [
     "activeTab",
