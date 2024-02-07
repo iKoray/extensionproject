@@ -3,17 +3,37 @@
   <head>
     <meta charset="UTF-8">
     <title> Vulnerability Scanner</title>
-  </head>
+    <style>
+    body{
+      font-family: Arial, sans-serif;
+      margin: 10px
+    }
+    #scanButton {
+      background-color: #C0C0C0; /* SILVER */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+  </style>
+</head>
 <body>
-  <!---where my text or buttons will go -->
-</body>
 <h1> Website Vulnerability Scanner</h1>
 <p> Click the button to scan the current website for vulnerabilites.</p>
 <button id="scanButton">Start Scan</button>
-<style>
-  /* css styles, look of popup*/
-</style>
+  
+  <script> 
+  /* javascript area*/
+    document.getElementById('scanButton').addEventListener('click', function() {
+    // Add the JavaScript code to initiate the scan here
+    alert('Scan testing');
+    });
+  </script>
 
-<style> 
-/* javascript area*/
-</style>
+</body>  
+</html>
