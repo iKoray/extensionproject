@@ -14,5 +14,3 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     }
     return true; // keep the messaging channel open for the response
 });
-
-
